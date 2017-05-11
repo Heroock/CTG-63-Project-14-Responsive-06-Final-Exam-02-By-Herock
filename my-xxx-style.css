@@ -1,0 +1,294 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-family: Times;
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* ======================== CSS For Header Text ============================ */
+
+.header-area {
+	background: url(images/header_background.png) repeat-x;
+	background-position: top;
+	background-size: auto;
+}
+
+.header {
+	padding: 40px 0px;
+	color: #686868;
+}
+
+.header-left h4 {
+	font-style: italic;
+	font-size: 25px;
+}
+
+.header-right {
+	text-align: right;
+	margin-top: 15px;
+	padding: 0px;
+}
+
+.header-right i {
+	font-size: 22px;
+	margin: 0px;
+	padding-left: 15px;
+}
+
+.header-right i:hover {
+	color: blue;
+}
+
+/* ===================== Header Text CSS End Here ========================== */
+
+/* ========================= CSS For Slider ================================ */
+
+.carousel-indicators {
+	bottom: -35px;
+	padding: 0px;
+}
+
+.carousel-indicators li {
+	background: #DDDDDD;
+	border: 1px solid #959595;
+}
+
+.carousel-indicators .active {
+	background-color: #959595;
+}
+
+/* ======================= Slider CSS End Here ============================= */
+
+/* ====================== CSS For Welcome Area ============================= */
+
+.welcome-area {
+	padding-top: 5%;
+	padding-bottom: 7%;
+	text-align: justify;
+	color: #444343;
+}
+
+.portfolio-text {
+	text-align: center;
+}
+
+.portfolio-text h3 {
+	font-size: 30px;
+}
+
+.portfolio-text h1 {
+	font-size: 560%;
+	margin-bottom: 5%;
+}
+
+.single-portfolio i {
+	font-size: 30px;
+	text-align: left;
+	min-width: 100%;
+	margin-bottom: 3%;
+}
+
+.single-portfolio span {
+	margin-left: 5%;
+}
+
+/* ===================== Welcome Area End Here ============================= */
+
+/* ==================== CSS For Portfolio Area ============================= */
+
+.portfolio-area {
+	background: url(images/portfolio_background.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0px 150px 0px;
+}
+
+.portfolio-img img {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.portfolio-area .padding {
+	margin-top: 25px;
+}
+
+.portfolio-right img {
+	width: 100%;
+	height: 114.7vh;
+	margin-top: 2px;
+}
+
+.mini_carosel {
+	position: absolute;
+	bottom: 3px;
+	width: 95%;
+	padding: 0px 5px;
+}
+
+.mini_carosel img {
+	width: 100%;
+	min-height: 100%;
+}
+
+.carousel-control .icon-prev {
+	border: 1px solid #1A180A;
+	border-radius: 50%;
+	padding: 0px 25px 35px 10px;
+	background: #1A180A;
+}
+
+.carousel-caption {
+	top: 5px;
+	font-size: 15px;
+}
+
+.carousel-control .icon-next {
+	border: 1px solid #1A180A;
+	border-radius: 50%;
+	padding: 0px 22px 35px 13px;
+	background: #1A180A;
+}
+
+/* =================== Portfolio Area End Here ============================= */
+
+.contact-area {
+	background: #fff;
+	padding: 30px 0px 70px 0px;
+}
+
+.icon-addon {
+	position: relative;
+	color: #555;
+	display: block;
+}
+
+.icon-addon.addon-lg .form-control {
+	line-height: 1.33;
+	height: 46px;
+	font-size: 18px;
+	padding: 10px 16px 10px 40px;
+	background: #EBEBEB;
+	font-style: italic;
+}
+
+.icon-addon .fa {
+	position: absolute;
+	z-index: 2;
+	left: 10px;
+	font-size: 14px;
+	width: 20px;
+	margin-left: -2.5px;
+	text-align: center;
+	padding: 10px 0;
+	top: 1px
+}
+
+.icon-addon.addon-lg .fa {
+	font-size: 18px;
+	margin-left: 0;
+	left: 11px;
+	top: 4px;
+}
+
+.icon-addon:hover .fa {
+	color: #2580db;
+}
+
+textarea.form-control {
+	min-height: 200px;
+}
+
+button.btn {
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(images/submit_bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 5%;
+}
+
+.author-img {
+	width: 100%;
+}
+
+.author-info h2 {
+	font-size: 22px;
+	color: #797979;
+	padding: 0px;
+	margin: 10px 0px;
+}
+
+.author-info p {
+	color: #616060;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.contact p {
+	color: #848484;
+	font-size: 16px;
+	font-style: italic;
+	margin: 10px 0px;
+}
+
+.sociallink {
+	color: #444444;
+	margin-top: 20px;
+}
+
+.sociallink b {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.sociallink a {
+	text-decoration: none;
+	padding: 5px 15px;
+	font-style: italic;
+	font-size: 15px;
+	color: #848484;
+}
+
+.fosllow {
+	font-size: 18px;
+	color: #848484;
+}
+
+.line-up {
+	border-top: 1px solid #D8D8D8;
+}
+
+.footer {
+	padding: 40px 0px 10px 0px;
+}
+
+.footer-right {
+	text-align: right;
+}
+
+.footer-right i {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+/* ======================= CSS Styling End From Here ========================= */

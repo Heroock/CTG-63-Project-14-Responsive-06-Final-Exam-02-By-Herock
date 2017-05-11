@@ -1,0 +1,154 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+@media (min-width: 0px) and (max-width: 425px) {
+	.carousel-control .icon-next {
+		padding: 0px 13px 23px 10px;
+	}
+	.carousel-control .icon-prev {
+		padding: 0px 16px 23px 7px;
+	}
+	.header-left h4 {
+		text-align: center;
+	}
+	.header-right {
+		text-align: center;
+	}
+	.carousel-caption p {
+		font-size: 10px;
+	}
+	.footer-left p {
+		text-align: center;
+	}
+	.footer-right {
+		text-align: center;
+	}
+	.portfolio-text h3 {
+		font-size: 25px;
+	}
+	.portfolio-text h1 {
+		font-size: 200%;
+		margin-bottom: 5%;
+	}
+	.single-portfolio i {
+		text-align: center;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+	.mini_carosel {
+		width: 92.5%;
+		margin-left: -3px;
+	}
+	.mini_carosel img {
+		width: 100%;
+		min-height: 22.5vh;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+	.mini_carosel {
+		margin-left: -2px;
+		width: 93%;
+	}
+	.mini_carosel img {
+		width: 100%;
+		min-height: 20vh;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+	.mini_carosel {
+		margin-left: -1px;
+		width: 93.7%;
+	}
+	.mini_carosel img {
+		width: 100%;
+		min-height: 20vh;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	.mini_carosel {
+		margin-left: -2px;
+		width: 93.4%;
+	}
+	.mini_carosel img {
+		width: 100%;
+		min-height: 37vh;
+	}
+	.portfolio-right img {
+		height: 97.2vh;
+		margin-top: 1px;
+	}
+	.mini_carosel {
+		bottom: 2px;
+	}
+	.portfolio-text h3 {
+		font-size: 25px;
+	}
+	.portfolio-text h1 {
+		font-size: 350%;
+	}
+	.single-portfolio i {
+		font-size: 23px;
+		margin-bottom: 5%;
+	}
+	.single-portfolio span {
+		margin-left: 5%;
+	}
+	button.btn {
+		margin-top: 1%;
+		margin-bottom: 6%;
+	}
+	.portfolio-area {
+		padding: 100px 0px 100px 0px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.mini_carosel {
+		margin-left: -.8px;
+		width: 94.27%;
+	}
+	.mini_carosel img {
+		width: 100%;
+		min-height: 29vh;
+	}
+	.portfolio-right img {
+		height: 126.8vh;
+		margin-top: 1px;
+	}
+	.mini_carosel {
+		bottom: 2px;
+	}
+	.portfolio-text h3 {
+		font-size: 25px;
+	}
+	.portfolio-text h1 {
+		font-size: 350%;
+	}
+	.single-portfolio i {
+		font-size: 23px;
+		margin-bottom: 5%;
+	}
+	.single-portfolio span {
+		margin-left: 5%;
+	}
+	button.btn {
+		margin-top: 1%;
+		margin-bottom: 6%;
+	}
+	.portfolio-area {
+		padding: 100px 0px 100px 0px;
+	}
+}
+
+/* ======================= CSS Styling End From Here ========================= */
